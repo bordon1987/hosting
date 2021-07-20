@@ -1,0 +1,64 @@
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+	div.scrollmenu {
+		  background-color: #404040;
+		}
+
+	div.scrollmenu a {                                      
+		  display: inline-block;
+		  color: blue;
+		  text-align: center;
+		  padding: 14px;
+		  text-decoration: none;
+		}
+
+	div.scrollmenu a:hover {
+		  background-color: #404040;
+		}
+
+  footer{
+    background-color: #404040;
+    color: black;
+    text-align: right;
+    padding: 1px;
+    font-size: 12;
+  }
+  
+
+//especialidad
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+}
+table.menutabla img{
+  width: 270px;
+  height: 250px;
+}
+
+
+
+//quienes_somos
+div.general{
+  background-image: url("imagenes/diente.jpg");
+  width: 50%;
+  height: 500px;
+}
+div.left{
+  width: 35%;
+  height: 400px;
+  float: left;
+}
+div.right{
+  width: 30%;
+  height: 400px;
+  float: right;
+  
+}
+div.center {
+  width: 35%;
+  height: 400px;
+  display: inline-block;
+}
